@@ -36,6 +36,7 @@ h1 {
 	margin: 0;
 text-align: center;
 	opacity: 1;
+	color: #000;
 }
 main {
 	display: flex;
