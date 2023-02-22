@@ -27,7 +27,7 @@ canvas {
   display: block;
 }
 header {
-	background-color: #333;
+	background-color: linear-gradient(to bottom right, #ff0055, #ffaaff, #00ffff, #55ff00, #ffaa00);
 	color: #fff;
 	padding: 20px;
 }
