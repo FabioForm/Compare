@@ -27,13 +27,15 @@ canvas {
   display: block;
 }
 header {
-	background-color: linear-gradient(to bottom right, #ff0055, #ffaaff, #00ffff, #55ff00, #ffaa00);
+	background: linear-gradient(to bottom right, #000000, #706d70, #a9b0b0, #d2d4d1, #f7f7f7);
 	color: #fff;
 	padding: 20px;
+	opacity: 0.3;
 }
 h1 {
 	margin: 0;
 text-align: center;
+	opacity: 1;
 }
 main {
 	display: flex;
