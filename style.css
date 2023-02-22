@@ -1,8 +1,33 @@
-*{padding:0;margin:0;}
-body {
-	font-family: Arial, sans-serif,background: linear-gradient(to bottom right, #ff0055, #ffaaff, #00ffff, #55ff00, #ffaa00);
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
+
+      body {
+        font-family: Arial, sans-serif;
+        background: #000;
+        overflow: hidden;
+      }
+      canvas {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+      #video-container {
+        margin: auto;
+        width: 80%;
+        height: 80%;
+        position: absolute;
+        top: 0; bottom: 0; left: 0; right: 0;
+      }
+
+canvas {
+  display: block;
 }
+
 header {
 	background-color: #333;
 	color: #fff;
