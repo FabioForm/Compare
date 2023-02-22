@@ -1,18 +1,40 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>O Tamanho das coisas</title>
+  <head>
+    <title>Comparação de tamanhos na Terra</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
+    <style>
+      body {
+        background: #000;
+        overflow: hidden;
+      }
+      canvas {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+      #video-container {
+        margin: auto;
+        width: 80%;
+        height: 80%;
+        position: absolute;
+        top: 0; bottom: 0; left: 0; right: 0;
+      }
+  </style>
+  </head>
+  <body>
 	<header>
-		<h1>Comparação de tamanhos na Terra</h1>
+		<h1>O Tamanho das Coisas</h1>
 	</header>
-	<main>
+    <canvas id="canvas"></canvas>
+    <div id="video-container">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/sIhl4emr__w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-	</main>
+    </div>
 	<footer>
-	<p>Desenvolvido por Fábio Alves - UFCD 161 Projecto Final</p>
+		<p>Desenvolvido por Fábio Alves no âmbito da UFCD 161 - Projecto Final</p>
 	</footer>
-</body>
+    <script src="estrelas.js"></script>
+  </body>
 </html>
