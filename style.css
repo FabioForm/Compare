@@ -45,8 +45,9 @@ main {
 	height: 80vh;
 }
 footer {
-	background-color: #333;
+	background: linear-gradient(to bottom right, #000000, #706d70, #a9b0b0, #d2d4d1, #f7f7f7);
 	color: #fff;
 	text-align: center;
 	padding: 10px;
+	opacity:0.3;
 }
